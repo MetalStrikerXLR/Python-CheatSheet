@@ -1,15 +1,15 @@
 from pathlib import Path
 
 # Check existence of Directory
-# p = Path("ecommerce")
-# print(p.exists())
+ p = Path("ecommerce")
+ print(p.exists())
 
 # Create new Directory
-# e = Path("emails")
-# e.mkdir()
+ e = Path("emails")
+ e.mkdir()
 
 # Delete Directory
-# e.rmdir()
+ e.rmdir()
 
 # Change Path and search files there
 p = Path()
